@@ -1,6 +1,6 @@
 
 
-```markdown
+<!-- ```markdown -->
 # SQL Pattern Matching
 
 ## 1. `LIKE` Operator
