@@ -28,7 +28,7 @@
   WHERE email LIKE '%example.com';
   ```
 
-## 2. `NOT LIKE` Operator
+## 2. ```NOT LIKE``` Operator
 
 - **Purpose**: Finds records where the column value does not match the specified pattern.
 - **Syntax**:
