@@ -174,4 +174,4 @@
 Each SQL database has its own syntax and capabilities for pattern matching, so refer to your specific database’s documentation for precise details and additional options.
 ```
 
-You can copy and paste this markdown into a Git repository README file or any other markdown-supported document to maintain a structured reference for SQL pattern matching.
+You can copy and paste this markdown into a Git repository README file or any other markdown-supported document to maintain a structured reference for SQL pattern matching.```
