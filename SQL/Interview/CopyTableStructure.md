@@ -36,9 +36,3 @@ WHERE 1=0;
   FROM existing_table
   WHERE 1 = 0;
   ```
-
-### 3. **Using `CREATE TABLE` with `INFORMATION_SCHEMA` (for SQL Server)**
-
-If you need to generate the table structure manually from the existing table’s metadata, you can use SQL Server's `INFORMATION_SCHEMA` to get column definitions and create the new table.
-
-```sql
