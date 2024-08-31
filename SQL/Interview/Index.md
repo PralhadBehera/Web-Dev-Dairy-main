@@ -64,44 +64,7 @@ Indexes work by creating a separate data structure (often a balanced tree or a h
    - **Example**:
      ```sql
      CREATE NONCLUSTERED INDEX idx_employee_name ON employees(name);
-     ```
-
-7. **Full-Text Index**
-
-   - **Definition**: An index designed for full-text searches, allowing for efficient searches of large text fields.
-   - **Usage**: Optimizes queries that search for words or phrases within text columns.
-   - **Example**:
-     ```sql
-     CREATE FULLTEXT INDEX ON articles(content);
-     ```
-
-8. **Bitmap Index**
-
-   - **Definition**: An index that uses bitmaps (bit arrays) to represent the presence of values. Useful for columns with a limited number of distinct values (low cardinality).
-   - **Usage**: Efficient for queries on columns with a small number of unique values, such as gender or boolean flags.
-   - **Example**:
-     ```sql
-     -- Bitmap indexes are generally implemented automatically by some databases like Oracle for specific queries
-     ```
-
-9. **Spatial Index**
-
-   - **Definition**: An index designed for spatial data types, such as geographical coordinates.
-   - **Usage**: Optimizes queries involving spatial operations like distance calculations or spatial joins.
-   - **Example**:
-     ```sql
-     CREATE SPATIAL INDEX idx_location ON locations(geography_column);
-     ```
-
-10. **Reverse Key Index**
-
-    - **Definition**: An index where the bytes of the indexed column values are reversed.
-    - **Usage**: Helps in evenly distributing index entries to avoid performance issues caused by sequential key values.
-    - **Example**:
-      ```sql
-      -- Reverse key indexes are specific to certain databases like Oracle.
-      ```
-
+ 
 ### **Considerations**
 
 - **Index Creation**: While indexes improve read operations, they can slow down write operations (INSERT, UPDATE, DELETE) because the indexes need to be updated.
@@ -136,9 +99,6 @@ Consider an e-commerce database with a `products` table and a `sales` table.
    );
    ```
 
-Certainly! Here is the remaining part of the explanation, including more details on various index types and their applications.
-
-### **More Details on Index Types**
 
 #### **Unique Index**
 
