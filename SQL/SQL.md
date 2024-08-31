@@ -3,7 +3,7 @@
 <!-- ```markdown -->
 # SQL Pattern Matching
 
-## 1. `LIKE` Operator
+## - `LIKE` Operator
 
 - **Purpose**: Performs simple pattern matching within string columns.
 - **Syntax**:
